@@ -223,12 +223,6 @@
     </dependencies>
   </dependencyManagement>
 
-         <repository>
-            <id>maven-releases</id>
-            <name>maven-releases</name>
-            <url>http://localhost:8081/repository/maven-releases/</url>
-        </repository>
-
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
     <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
