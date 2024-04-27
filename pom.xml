@@ -22,14 +22,14 @@
 
   <distributionManagement>
    <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://192.168.254.143/:8081/repository/Cloud-Gen-Release/</url>
+            <id>maven-releases</id>
+            <name>maven-releases</name>
+            <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://192.168.254.143:8081/repository/Cloud-Gen-Snap/</url>
+            <id>maven-snapshots</id>
+            <name>maven-snapshots</name>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     <site>
       <id>site-server</id>
